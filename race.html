@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Car races</title>
+		<style>
+		body{margin:0;
+		}
+				div{
+					height: 100vh;
+					
+					background: 
+					url(images/border-collie.png)no-repeat, 
+					url(images/bulldog.png)no-repeat,
+					url(images/dalmatian.png)no-repeat, 
+					url(images/kurzhaar.png)no-repeat, 
+					url(images/pomeranian.png)no-repeat, 
+					url(images/road.png)repeat;
+
+					background-size: auto 15%, auto 15%,auto 15%, auto 15%, auto 15%, 5% 20%;
+					
+					background-position: top 0% left 3%,
+					 top 25% left 3%,
+					 top 49% left 3%,
+					  top 72% left 3%,
+					  top 92% left -160%,
+					   top 0% left 0%;
+					   transition: background-position 10s ease;
+
+				}
+				div:hover{
+					background-position: top 0% left 99%,
+					 top 25% left 79%,
+					 top 49% left 96%,
+					  top 72% left 89%,
+					  top -20% left 200%,
+					  top 0 left 3300%;
+				}
+	</style>
+	</head>
+	<body>
+		<div></div>
+	</body>
+	</html>	
